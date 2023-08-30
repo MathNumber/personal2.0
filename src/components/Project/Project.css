@@ -1,0 +1,114 @@
+#project{
+    background-color: #070d1b;
+    padding-top: 100px;
+    height: 748px;
+}
+.project__list{
+    padding-top: 80px;
+    margin: 0 auto;
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    gap: 46px;
+}
+.project__item{
+    width: 30,666666667%;
+    position: relative;
+    overflow: hidden;
+}
+.project__img{
+    transition: all .4s ease-in-out;
+}
+.project__img img{
+    height: 285px;
+    object-fit: cover;
+    width: 420px;
+}
+.project__item-hidden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 5;
+    border: 1px solid white;
+    padding: 40px 100px;
+    display: none;
+}
+.project__item:hover img{
+    transition: all .4s ease;
+    opacity: 0.4;
+}
+.project__item:hover .project__item-hidden{
+    display: block;
+}
+.project__item-hidden h5{
+    font-size: 20px;
+    color: #fdfeff;
+    margin-top: 40px;
+}
+.project__item-hidden p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #a6aab5;
+}
+.project__item-hidden svg{
+    color: black;
+    height: 50px;
+    width: 50px;
+}
+.project__item-hidden path{
+    background-color: #151b29;
+}
+.project__icon{
+    background-color: #81b4af;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px ) and (max-width: 1368px) {
+    #project{
+        height: 100%;
+    }
+    .project__list{
+        display: block;
+        padding-left: 4%;
+    }
+    .project__img img{
+        height: auto;
+        width: 96%;
+    }
+    .project__img{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 768px ){
+    #project{
+        height: 100%;
+    }
+    .project__list{
+        display: block;
+        padding-left: 4%;
+    }
+    .project__img img{
+        height: auto;
+        width: 96%;
+    }
+    .project__img{
+        margin-bottom: 40px;
+    }
+    .project__item-hidden h5{
+        width: 120px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .project__item-hidden p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .project__item-hidden{
+        padding: 10px 60px;
+        top: 40%;
+    }
+}

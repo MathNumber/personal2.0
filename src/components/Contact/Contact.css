@@ -1,0 +1,230 @@
+#contact{
+    background-color: #0a101e;
+    padding-top: 100px;
+    height: 768px;
+}
+.contact__box{
+    padding-top: 80px;
+    display: flex;
+    gap: 80px;
+}
+.contact__box-left{
+    position: relative;
+    flex-basis: 50%;
+}
+.contact__move{
+    position: absolute;
+    right: 0;
+}
+.contact__title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -6px;
+    margin-bottom: 22px;
+    color: white;
+}
+.contact__form{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact__form input{
+    display: block;
+    width: 560px;
+    color: #a9adb8;
+    padding: 12px 20px;
+    border: 1px solid #232935;
+    background-color: #101624;
+    height: 52px;
+    min-height: 100%;
+    outline: none;
+    border-radius: 7px;
+    transition: all .4s ease;
+}
+.contact__form input:focus{
+    border-color: #81b4af;
+}
+.contact__form textarea{
+    display: block;
+    width: 100%;
+    color: #a9adb8;
+    padding: 12px 20px;
+    border: 1px solid #232935;
+    height: 100px;
+    background-color: #101624;
+    resize: vertical;
+    outline: none;
+    border-radius: 7px;
+    transition: all .4s ease;
+}
+.contact__form textarea:focus{
+    border-color: #81b4af;
+}
+
+.contact__submit{
+    background-color: #81b4af;
+    color: #070d1b;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding: 12px 1.5em;
+    border-radius: 50px;
+    min-width: 170px;
+    border: none;
+    outline: none;
+    transition: all .4s ease;
+    text-transform: capitalize;
+}
+.contact__box-right{
+    flex-basis: 50%;
+}
+.contact__text{
+    margin-top: -6px;
+    margin-bottom: 23px;
+    width: 600px;
+    line-height: 24px;
+    text-align: justify;
+}
+.contact__single{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.contact__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #3f4551;
+    border-radius: 50%;
+    background-color: #070d1b;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+.contact__icon:hover{
+    border: 1px solid #81b4af;
+}
+.contact__details a:hover{
+    color: #81b4af;
+}
+.contact__icon svg{
+    scale: 1.1;
+    vertical-align: middle;
+}
+.contact__details h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -4px;
+    margin-bottom: 6px;
+    color: white;
+}
+.contact__details a{
+    display: block;
+    margin-bottom: -2px;
+    text-decoration: none;
+    color: #a9adb8;
+}
+.social__text{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.social__link{
+    display: flex;
+}
+.social__btn{
+    border-radius: 50px;
+    background-color: #070d1b;
+    border: 0.5px solid #3f4551;
+    transition: all .4s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #a9adb8;
+}
+.social__btn:not(:last-child){
+    margin-right: 20px;
+}
+.social__btn:hover{
+    padding-right: 15px;
+}
+.social__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: all .4s ease;
+}
+.social__icon svg{
+    scale: 1.5;
+    vertical-align: middle;
+}
+.social__name{
+    font-weight: 600;
+    color: #fdfeff;
+    overflow: hidden;
+    max-width: 0;
+    transition: all .5s ease;
+}
+.social__btn:hover .social__name{
+    max-width: 140px;
+}
+@media screen and (min-width: 768px ) and (max-width: 1368px) {
+    .contact__box{
+        padding-left: 4%;
+        display: block;
+    }
+    #contact{
+        height: 100%;
+    }
+    .contact__move{
+        position: static;
+    }
+    .contact__form textarea{
+        width: 96%;
+        height: 100px;
+    }
+    .contact__form input{
+        width: 96%;
+    }
+    .contact__box-right{
+        padding-top: 40px;
+    }
+    .contact__text{
+        width: 96%;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .contact__box{
+        padding-left: 4%;
+        display: block;
+    }
+    #contact{
+        height: 100%;
+    }
+    .contact__move{
+        position: static;
+    }
+    .contact__form textarea{
+        width: 96%;
+        height: 100px;
+    }
+    .contact__form input{
+        width: 96%;
+    }
+    .contact__box-right{
+        padding-top: 40px;
+    }
+    .contact__text{
+        width: 96%;
+    }
+}
