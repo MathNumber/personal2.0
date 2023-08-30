@@ -94,7 +94,7 @@ function Contact() {
               </div>
               <div class="contact__details">
                 <h4>Email</h4>
-                <a href="ducpd82@gmail.com">ducpd82@gmail.com</a>
+                <a href="mailto:ducpd82@gmail.com">ducpd82@gmail.com</a>
               </div>
             </div>
             <div class="contact__single">
@@ -115,7 +115,7 @@ function Contact() {
               </div>
               <div class="contact__details">
                 <h4>Phone</h4>
-                <a href="ducpd82@gmail.com">+84 334-354-648</a>
+                <a href="tel:+84334354648">+84 334-354-648</a>
               </div>
             </div>
             <div class="contact__single">
@@ -136,7 +136,7 @@ function Contact() {
               </div>
               <div class="contact__details">
                 <h4>Address</h4>
-                <a href="ducpd82@gmail.com">Thua Thien Hue</a>
+                <a href="geo:16.4637,107.5909">Thua Thien Hue</a>
               </div>
             </div>
             <div class="contact__social">
@@ -144,7 +144,10 @@ function Contact() {
                 <p>Visit my social profile and get connected</p>
               </div>
               <div class="social__link">
-                <a href="ducpd82@gmail.com" class="social__btn">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009869267684"
+                  class="social__btn"
+                >
                   <span class="social__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -159,25 +162,25 @@ function Contact() {
                   </span>
                   <span class="social__name">Facebook</span>
                 </a>
-                <a href="ducpd82@gmail.com" class="social__btn">
+                <a href="https://github.com/MathNumber" class="social__btn">
                   <span class="social__icon">
                     <svg
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--fa6-brands"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-github"
+                      viewBox="0 0 16 16"
                     >
-                      <path
-                        fill="currentColor"
-                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253z"
-                      ></path>
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                     </svg>
                   </span>
-                  <span class="social__name">Twitter</span>
+                  <span class="social__name">GitHub</span>
                 </a>
-                <a href="ducpd82@gmail.com" class="social__btn">
+                <a
+                  href="https://www.linkedin.com/in/nguyen-duc-85a43a278/"
+                  class="social__btn"
+                >
                   <span class="social__icon">
                     <svg
                       aria-hidden="true"
