@@ -8,11 +8,11 @@ function Introduction() {
         <h4 className="section-title">About Me</h4>
         <h2 className="section-subtitle">About Me</h2>
       </div>
-      <div class="intro__info">
-        <div data-aos="fade-up" class="intro__info-left">
+      <div className="intro__info">
+        <div data-aos="fade-up" className="intro__info-left">
           <img src="assets/image/duc.jpg" alt="" />
         </div>
-        <div data-aos="fade-up" class="intro__info-right">
+        <div data-aos="fade-up" className="intro__info-right">
           <p>Hi There! I'm Nguyen Duc</p>
           <h4>Web developer</h4>
           <h5>
@@ -36,7 +36,7 @@ function Introduction() {
               <span>From</span> : <span>Thua Thien Hue</span>
             </li>
           </ul>
-          <div class="intro__cv">
+          <div className="intro__cv">
             <a
               href="assets/image/NguyenDuc-DE170153.png"
               download="NguyenDuc-CV"

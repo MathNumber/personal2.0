@@ -7,17 +7,17 @@ function Contact() {
         <h4 className="section-title">Contact</h4>
         <h2 className="section-subtitle">Contact</h2>
       </div>
-      <div class="contact__box">
-        <div data-aos="fade-up" class="contact__box-left">
-          <div class="contact__move">
-            <h3 class="contact__title">Just say Hello</h3>
+      <div className="contact__box">
+        <div data-aos="fade-up" className="contact__box-left">
+          <div className="contact__move">
+            <h3 className="contact__title">Just say Hello</h3>
             <form
               action="#"
               method="POST"
-              class="contact-form"
+              className="contact-form"
               id="contact-form"
             >
-              <div class="contact__form">
+              <div className="contact__form">
                 <input
                   type="text"
                   id="name"
@@ -26,7 +26,7 @@ function Contact() {
                   required=""
                 />
               </div>
-              <div class="contact__form">
+              <div className="contact__form">
                 <input
                   type="text"
                   id="email"
@@ -35,7 +35,7 @@ function Contact() {
                   required=""
                 />
               </div>
-              <div class="contact__form">
+              <div className="contact__form">
                 <input
                   type="text"
                   id="subject"
@@ -44,7 +44,7 @@ function Contact() {
                   required=""
                 />
               </div>
-              <div class="contact__form">
+              <div className="contact__form">
                 <textarea
                   cols="30"
                   rows="10"
@@ -55,7 +55,7 @@ function Contact() {
                 ></textarea>
               </div>
               <button
-                class="contact__submit"
+                className="contact__submit"
                 type="submit"
                 id="submit"
                 name="submit"
@@ -65,9 +65,9 @@ function Contact() {
             </form>
           </div>
         </div>
-        <div data-aos="fade-up" class="contact__box-right">
-          <h3 class="contact__title">Contact Info</h3>
-          <div class="contact__text">
+        <div data-aos="fade-up" className="contact__box-right">
+          <h3 className="contact__title">Contact Info</h3>
+          <div className="contact__text">
             <p>
               I'm thrilled that you've taken the time to visit my website.
               Whether you have a question, a project in mind, or just want to
@@ -75,13 +75,13 @@ function Contact() {
               are important to me, and I'm here to assist you in any way I can.
             </p>
           </div>
-          <div class="contact__info">
-            <div class="contact__single">
-              <div class="contact__icon">
+          <div className="contact__info">
+            <div className="contact__single">
+              <div className="contact__icon">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--fa-regular"
+                  className="iconify iconify--fa-regular"
                   width="1em"
                   height="1em"
                   viewBox="0 0 512 512"
@@ -92,17 +92,17 @@ function Contact() {
                   ></path>
                 </svg>
               </div>
-              <div class="contact__details">
+              <div className="contact__details">
                 <h4>Email</h4>
                 <a href="mailto:ducpd82@gmail.com">ducpd82@gmail.com</a>
               </div>
             </div>
-            <div class="contact__single">
-              <div class="contact__icon">
+            <div className="contact__single">
+              <div className="contact__icon">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--fa-solid"
+                  className="iconify iconify--fa-solid"
                   width="1em"
                   height="1em"
                   viewBox="0 0 512 512"
@@ -113,17 +113,17 @@ function Contact() {
                   ></path>
                 </svg>
               </div>
-              <div class="contact__details">
+              <div className="contact__details">
                 <h4>Phone</h4>
                 <a href="tel:+84334354648">+84 334-354-648</a>
               </div>
             </div>
-            <div class="contact__single">
-              <div class="contact__icon">
+            <div className="contact__single">
+              <div className="contact__icon">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--mdi"
+                  className="iconify iconify--mdi"
                   width="1em"
                   height="1em"
                   viewBox="0 0 24 24"
@@ -134,58 +134,58 @@ function Contact() {
                   ></path>
                 </svg>
               </div>
-              <div class="contact__details">
+              <div className="contact__details">
                 <h4>Address</h4>
                 <a href="geo:16.4637,107.5909">Thua Thien Hue</a>
               </div>
             </div>
-            <div class="contact__social">
-              <div class="social__text">
+            <div className="contact__social">
+              <div className="social__text">
                 <p>Visit my social profile and get connected</p>
               </div>
-              <div class="social__link">
+              <div className="social__link">
                 <a
                   href="https://www.facebook.com/profile.php?id=100009869267684"
-                  class="social__btn"
+                  className="social__btn"
                 >
-                  <span class="social__icon">
+                  <span className="social__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-facebook"
+                      className="bi bi-facebook"
                       viewBox="0 0 16 16"
                     >
                       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                     </svg>
                   </span>
-                  <span class="social__name">Facebook</span>
+                  <span className="social__name">Facebook</span>
                 </a>
-                <a href="https://github.com/MathNumber" class="social__btn">
-                  <span class="social__icon">
+                <a href="https://github.com/MathNumber" className="social__btn">
+                  <span className="social__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-github"
+                      className="bi bi-github"
                       viewBox="0 0 16 16"
                     >
                       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                     </svg>
                   </span>
-                  <span class="social__name">GitHub</span>
+                  <span className="social__name">GitHub</span>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/nguyen-duc-85a43a278/"
-                  class="social__btn"
+                  className="social__btn"
                 >
-                  <span class="social__icon">
+                  <span className="social__icon">
                     <svg
                       aria-hidden="true"
                       role="img"
-                      class="iconify iconify--fa6-brands"
+                      className="iconify iconify--fa6-brands"
                       width="0.88em"
                       height="1em"
                       viewBox="0 0 448 512"
@@ -196,7 +196,7 @@ function Contact() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="social__name">Linkedln</span>
+                  <span className="social__name">Linkedln</span>
                 </a>
               </div>
             </div>

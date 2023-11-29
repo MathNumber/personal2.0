@@ -7,18 +7,18 @@ function Project() {
         <h4 className="section-title">Projects</h4>
         <h2 className="section-subtitle">Projects</h2>
       </div>
-      <div class="project__list">
-        <div data-aos="fade-up" class="project__item">
-          <div class="project__img">
+      <div className="project__list">
+        <div data-aos="fade-up" className="project__item">
+          <div className="project__img">
             <img src="assets/image/2023-01-06_184659.png" alt="" />
           </div>
-          <div class="project__item-hidden">
-            <div class="project__icon">
+          <div className="project__item-hidden">
+            <div className="project__icon">
               <a href="https://notes-ebon-iota.vercel.app/">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--mdi"
+                  className="iconify iconify--mdi"
                   width="1em"
                   height="1em"
                   viewBox="0 0 24 24"
@@ -35,17 +35,17 @@ function Project() {
           </div>
         </div>
 
-        <div data-aos="fade-up" class="project__item">
-          <div class="project__img">
+        <div data-aos="fade-up" className="project__item">
+          <div className="project__img">
             <img src="assets/image/2023-01-06_184805.png" alt="" />
           </div>
-          <div class="project__item-hidden">
-            <div class="project__icon">
+          <div className="project__item-hidden">
+            <div className="project__icon">
               <a href="https://convert-xi.vercel.app/">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--mdi"
+                  className="iconify iconify--mdi"
                   width="1em"
                   height="1em"
                   viewBox="0 0 24 24"
@@ -61,17 +61,17 @@ function Project() {
             <p>Education/Personal</p>
           </div>
         </div>
-        <div data-aos="fade-up" class="project__item">
-          <div class="project__img">
+        <div data-aos="fade-up" className="project__item">
+          <div className="project__img">
             <img src="assets/image/2023-01-06_184841.png" alt="" />
           </div>
-          <div class="project__item-hidden">
-            <div class="project__icon">
+          <div className="project__item-hidden">
+            <div className="project__icon">
               <a href="https://macintosh-mocha.vercel.app/">
                 <svg
                   aria-hidden="true"
                   role="img"
-                  class="iconify iconify--mdi"
+                  className="iconify iconify--mdi"
                   width="1em"
                   height="1em"
                   viewBox="0 0 24 24"

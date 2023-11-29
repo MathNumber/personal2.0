@@ -43,7 +43,7 @@ function Banner({ menuOpen, setMenuOpen }) {
           <p>Nguyen Duc</p>
           <p>Web developer - Software engineering</p>
         </div>
-        <div class="banner__detail">
+        <div className="banner__detail">
           <a href="#intro">
             <button>Detail</button>
           </a>
